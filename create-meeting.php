@@ -16,8 +16,8 @@ function create_meeting() {
             'json' => [
                 "topic" => "Let's learn Laravel",
                 "type" => 2,
-                "start_time" => "2020-07-17T15:06:00",
-                "duration" => "30", // 30 mins
+                "start_time" => "2020-07-17T17:37:00",
+                "duration" => "59", // 30 mins
                 "password" => "123456"
             ],
         ]);
@@ -51,3 +51,7 @@ function create_meeting() {
 }
  
 create_meeting();
+?>
+<p class="lead">
+          <a href="index.php" class="btn btn-lg btn-secondary">Back</a>
+        </p>
